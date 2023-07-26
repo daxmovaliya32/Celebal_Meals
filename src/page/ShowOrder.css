@@ -1,0 +1,35 @@
+/* ShowOrder.css */
+
+.app {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+  }
+  
+  .order {
+    border: 1px solid #ccc;
+    padding: 0px;
+    border-radius: 5px;
+    flex: 1 1 300px; /* Set a flexible width with a maximum of 300px */
+    min-width: 300px; /* Set a minimum width of 300px */
+    /* Add additional styles as needed */
+  }  
+  
+  /* Optional: Add some hover effects to make it more interactive */
+  .order:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
